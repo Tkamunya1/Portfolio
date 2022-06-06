@@ -12,23 +12,20 @@ html {
   
   /*nav*/
   #navigation {
-    min-height: 100vh;
+    min-height: 30vh;
     width: 100%;
     padding: 30px 7% 0 7%;
     overflow: hidden;
   }
   
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
   
   nav ul {
     list-style: none;
   }
   
   nav ul li {
+    justify-content: space-between;
+    align-items: center;
     display: inline-block;
     padding-left: 100px;
   }
@@ -43,3 +40,39 @@ html {
   nav ul li a:hover {
     color: #f36b50;
   }
+  .Intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .Intro img {
+    flex-basis: 50%;
+  }
+  
+  .Intro-row {
+    flex-basis: 50%;
+  }
+  
+  .Intro-row h1 {
+    font-size: 144px;
+    font-weight: 800;
+    text-align: right;
+  }
+  
+  .Intro-row h4 {
+    font-size: 24px;
+    font-weight: 800;
+    padding-top: 80px;
+  }
+  
+  .Intro-row h3 {
+    font-size: 36px;
+    font-weight: 800;
+    padding: 22px 0 50px 0;
+  }
+  
+  
